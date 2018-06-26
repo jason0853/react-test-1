@@ -1,0 +1,8 @@
+.krw-container {
+  padding: 0.5rem 2.5rem;
+  cursor: pointer;
+  user-select: none;
+  font-size: 85%;
+  color: #a1a1a1;
+  text-align: right;
+}

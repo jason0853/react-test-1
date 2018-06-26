@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+
+}
+
+.form > div {
+  color: #ffffff;
+  font-weight: 600;
+  background: #22b8cf;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c5f6fa;
+  margin-left: 6.5rem;
+}
+
+.form input::placeholder {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 85%;
+}
+
+.create-button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.custom-select {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  width: 6rem;
+}
+
+.header {
+  padding: 0.5rem 1rem;
+}
+
+.select-children {
+  display: none;
+  position: relative;
+}
+
+.select-children div {
+  padding: 0.5rem 0;
+}
+
+.active {
+  display: block !important;
+}
+
+.create-button:hover {
+  background: #3bc9db;
+}

@@ -1,0 +1,78 @@
+.todo-item {
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.todo-item small {
+  color: #a1a1a1;
+}
+
+.todo-item:hover {
+  background: #e3fafc;
+}
+
+.todo-item:hover .remove {
+  opacity: 1;
+}
+
+.todo-item + .todo-item {
+  border-top: 1px solid #f1f3f5;
+}
+
+
+.remove {
+  color: #e64980;
+  font-weight: 600;
+  opacity: 0;
+  padding: 15px;
+}
+
+.currency {
+  width: 4rem;
+}
+
+.todo-text {
+  flex: 1;  
+  word-break: break-all;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.memo {
+  width: 50%;
+}
+
+.check-mark {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  margin-left: 1rem;
+  color: #3bc9db;
+  font-weight: 800;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer input {
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c5f6fa;
+  margin-left: 2.8rem;
+  margin-right: 3.7rem;
+  margin-bottom: 0.2rem;
+  text-align: right;
+}
+
+.footer input::placeholder {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 85%;
+}

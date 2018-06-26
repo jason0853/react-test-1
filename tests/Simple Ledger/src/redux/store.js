@@ -1,0 +1,1 @@
+//Redux 과제 (Assignment #2) Action 필요 없다 생각하시면 안넣어도 됩니다.
