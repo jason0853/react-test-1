@@ -2,7 +2,7 @@
 
 ## Assignments 과제
 
-1. [코빗 공개 API](https://apidocs.korbit.co.kr/ko/#%EC%B5%9C%EC%A2%85-%EC%B2%B4%EA%B2%B0-%EA%B0%80%EA%B2%A9)를 fetch 하여 매 10초마다 BTC, LTC, ETH의 원화 환산 가격 데이터를 불러온다.
+1. [코인원 공개 API](https://doc.coinone.co.kr/#api-Public)를 fetch 하여 매 10초마다 BTC, LTC, ETH의 원화 환산 가격 데이터를 불러온다.
 
 2. 원화 환산 데이터는 Redux에 저장하고, 프론트 상에 원화 환산값을 표기한다. 
 
