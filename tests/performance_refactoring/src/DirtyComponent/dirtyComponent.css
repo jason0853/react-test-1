@@ -1,0 +1,50 @@
+.Dirty__Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Dirty__Container > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dirty__Flex {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: .95;
+}
+
+.Orderbook__item {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  overflow-x: hidden;
+  width: 100px;
+}
+
+.Orderbook__item > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.Orderbook__item > span {
+  font-size: 14px;
+}
+
+.Orderbook__item--buys > div,
+.Orderbook__item--sells > div {
+  transition: .1s;
+  opacity: .4;
+}
+
+.Orderbook__item--buys > div {
+  background: skyblue;
+}
+
+.Orderbook__item--sells > div {
+  background: orangered;
+}
