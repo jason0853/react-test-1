@@ -1,19 +1,3 @@
-.Dirty__Container {
-  display: flex;
-  flex-direction: row;
-}
-
-.Dirty__Container > * {
-  display: flex;
-  flex-direction: column;
-}
-
-.Dirty__Flex {
-  display: flex;
-  flex-wrap: wrap;
-  opacity: .95;
-}
-
 .Orderbook__item {
   display: flex;
   position: relative;
@@ -37,8 +21,8 @@
 
 .Orderbook__item--buys > div,
 .Orderbook__item--sells > div {
-  transition: .1s;
-  opacity: .4;
+  transition: 0.1s;
+  opacity: 0.4;
 }
 
 .Orderbook__item--buys > div {

@@ -1,0 +1,15 @@
+.Dirty__Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Dirty__Container > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dirty__Flex {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.95;
+}
